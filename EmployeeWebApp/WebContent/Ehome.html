@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Management</title>
+	<link rel="stylesheet" href="Views/bootstrap.min.css">
+	<script src="Components/jquery-3.6.0.min.js"></script>
+</head>
+<body class="container-fluid card" style="width:40rem;">
+	<h2 class="bg-danger text-white text-center">Employee Management</h2>
+	
+	<form action="register" method="post">
+    <table class="table table-hover">
+       <tr>
+        <td>Employee Name</td>
+        <td><input type="text" name="empName" class="form-control"></td>
+       </tr>
+       <tr>
+        <td>Employee Address</td>
+        <td><input type="text" name="empAddress" class="form-control"></td>
+       </tr>
+       <tr>
+        <td>Employee Email</td>
+        <td><input type="text" name="empEmail" class="form-control"></td>
+       </tr>
+       <tr>
+        <td>Employee Contact No</td>
+        <td><input type="text" name="empContactno" class="form-control"></td>
+       </tr>
+       <tr>
+        <td><input type="submit" value="register" class="btn btn-success" ></td>
+        <td><input type="reset" value="cancel" class="btn btn-secondary"></td>
+       </tr>
+    </table>
+    <a href='employeeList' class="btn btn-outline-primary">Employee List</a>
+</form>
+</body>
+</html>
